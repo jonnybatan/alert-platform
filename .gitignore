@@ -30,3 +30,59 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# ===== PROJECT-SPECIFIC IGNORES =====
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.tfstate.lock.info
+
+# Kubernetes
+**/*.kubeconfig
+**/kubeconfig
+
+# Environment variables
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Binaries
+/bin/
+/venv/

@@ -1,0 +1,8 @@
+
+version: '3.8'
+
+services:
+  # Будем добавлять позже
+  placeholder:
+    image: alpine:latest
+    command: echo "Project setup complete"
